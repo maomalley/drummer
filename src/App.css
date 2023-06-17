@@ -4,11 +4,22 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background-image: linear-gradient(gray, white);
 }
 
 #display{
     display: flex;
-    width: 15vw;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 button{
